@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "2.7.1",
+  "description": "Resume of André Lademann",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/http-server/bin/http-server . -p 9000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vergissberlin/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "André Lademan <vergissberlin@googlemail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vergissberlin/resume/issues"
+  },
+  "homepage": "https://github.com/vergissberlin/resume#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
