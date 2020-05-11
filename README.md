@@ -2,14 +2,11 @@
 
 > A resume is like a DOM, you never know until you really inspect it!
 
+## Links
 
-**Links:**
-
-- GitHub   https://github.com/vergissberlin
-- Google+  https://plus.google.com/u/0/+AndréL
+- GitHub https://github.com/vergissberlin
 - LinkedIn https://www.linkedin.com/in/andré-lademann-a8564268/
-- Xing     https://www.xing.com/profile/Andre_Lademann
-
+- Xing https://www.xing.com/profile/Andre_Lademann
 
 ## 42 points of interests
 
@@ -19,12 +16,11 @@ Google Chrome Extensions, Regressive testing, functional testing,
 acceptance testing, unit testing, bdd, Codeception, PWA, Ionic Framework,
 jQuery, jQueryUI, git, Continuous Integration, Concourse CI, socket.io,
 Firebase, TYPO3 CMS, Lighttpd, Nginx, Code Review, PHP, Symfony Framework,
-Internet of Things, Raspberry PI, NAS, Zanox,  DBPedia, Semantic Web, RDF
+Internet of Things, Raspberry PI, NAS, Zanox, DBPedia, Semantic Web, RDF
 
 ## Knowledge focus timeline
 
 ![Knowledge focus timeline](media/knowledge-focus-timeline.svg "Knowledge focus timeline")
-
 
 ## Knowledge areas
 
@@ -61,7 +57,6 @@ way to have a look on web applications with different eyes.
 When it comes to improve the accessibility, often there is not much time left for it.
 Especially in non-governmental projects.
 
-
 ### Performance
 
 Get sweaty when you 1000+ concurrent user request on your web server with a
@@ -70,26 +65,31 @@ where the funny part starts, mostly. Because I know, I am prepared! To prevent
 blackouts, I had projects with a huge amount of concurrent user request.
 I took care about all the different cache layer.
 
-- **Client**
- - Browser cache
- - Local storage
- - Cache API
- - Offline first principle
-- **Server**
- - Byte cache
- - parallel processes
- - precompiling
-- **Routing**
- - CDN
- - Load balancer
- - Reverse proxy
-- **Architecture**
- - Reduce requests (sprites, icon fonts, inline code)
- - Compress code
- - Lazy load
- - Critical css
+#### Client
 
+- Browser cache
+- Local storage
+- Cache API
+- Offline first principle
 
+#### Server
+
+- Byte cache
+- parallel processes
+- precompiling
+
+#### Routing
+
+- CDN
+- Load balancer
+- Reverse proxy
+
+#### Architecture
+
+- Reduce requests (sprites, icon fonts, inline code)
+- Compress code
+- Lazy load
+- Critical css
 
 #### Example projects
 
@@ -99,19 +99,24 @@ I took care about all the different cache layer.
 
 ### Performance analyse
 
-- **Client**
-  - Chrome 63+ Performance monitor
-  - Lighthouse
-- **Server**
-	- Prometheus & Grafana
-  - htop, iotop, iperf, siege
-	- jMeter
-	- Locust.io
-- **SaaS**
-  - New Relic
-	- Blazemeter
-	- Google Analytics
-	- Google PageSpeed Insights
+#### Client
+
+- Chrome 63+ Performance monitor
+- Lighthouse
+
+#### Server
+
+- Prometheus & Grafana
+- htop, iotop, iperf, siege
+- jMeter
+- Locust.io
+
+#### SaaS
+
+- New Relic
+- Blazemeter
+- Google Analytics
+- Google PageSpeed Insights
 
 ### Search Engine Optimization & Semantic Web
 
@@ -127,7 +132,6 @@ to enhances the content in WYSIWYG editors and can be use in content management 
 #### Examples
 
 - Semann https://netresearch.github.io/semann/
-
 
 ## Languages
 
@@ -171,7 +175,7 @@ German was one of my major subjects in high school.
 ### English (fluid)
 
 As a consultant and developer in a international context, it is my daily business
-to read, write, program,  listen and speak in english. With companions in open source projects,
+to read, write, program, listen and speak in english. With companions in open source projects,
 and colleagues from India and the USA with whom I work as an employee.
 In the meantime, it does not make any difference to me to enjoy a movie,
 whether the film is in German or English.
@@ -194,7 +198,7 @@ To run tests on different browser with a selenium hub it becomes so easy these d
 #### Example projects
 
 - **Universal Music** build pipeline with acceptance tests
-- Multistage continuous deployment pipeline for *St. Benno Verlag*
+- Multistage continuous deployment pipeline for _St. Benno Verlag_
 
 ### Others
 
@@ -213,7 +217,6 @@ InDesign, Illustrator. I made animated adds and hole web applications with it.
 
 - ct3
 - PacHub - contributions timeline designer
-
 
 ## Best practices
 
