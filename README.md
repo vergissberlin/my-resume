@@ -20,7 +20,7 @@ Internet of Things, Raspberry PI, NAS, Zanox, DBPedia, Semantic Web, RDF
 
 ## Knowledge focus timeline
 
-![Knowledge focus timeline](media/knowledge-focus-timeline.svg "Knowledge focus timeline")
+![Knowledge focus timeline](media/knowledge-focus-timeline.png "Knowledge focus timeline")
 
 ## Knowledge areas
 

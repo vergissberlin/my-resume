@@ -1,52 +1,68 @@
 <html>
-<head>
-	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-</head>
-<body>
-<div id="chart_div" style="width: 780px; height: 400px;"></div>
-</body>
+	<head>
+		<script
+			type="text/javascript"
+			src="https://www.gstatic.com/charts/loader.js"
+		></script>
+	</head>
+	<body>
+		<div id="chart_div" style="width: 780px; height: 400px;"></div>
+	</body>
 </html>
 <script>
-	google.charts.load('current', { 'packages': ['corechart'] })
-	google.charts.setOnLoadCallback(drawChart)
+	google.charts.load("current", { packages: ["corechart"] });
+	google.charts.setOnLoadCallback(drawChart);
 
-	function drawChart () {
+	function drawChart() {
 		var data = google.visualization.arrayToDataTable([
-
-			['Year', ' PHP', 'HTML/CSS', 'JavaScript', 'Bash', 'Performance', 'CI', 'Consulting'],
-			['2001', 55, 35, 10, 0, 0, 0, 0],
-			['2002', 60, 30, 10, 0, 0, 0, 0],
-			['2003', 65, 20, 10, 0, 0, 0, 5],
-			['2004', 65, 20, 10, 0, 0, 0, 5],
-			['2005', 60, 15, 15, 0, 0, 0, 10],
-			['2006', 65, 10, 15, 0, 0, 0, 10],
-			['2007', 55, 20, 15, 0, 0, 0, 10],
-			['2008', 30, 45, 15, 0, 0, 0, 10],
-			['2009', 30, 45, 15, 0, 0, 0, 10],
-			['2010', 30, 30, 20, 0, 0, 0, 20],
-			['2011', 30, 10, 20, 5, 0, 0, 35],
-			['2012', 20, 10, 20, 5, 15, 0, 30],
-			['2013', 25, 10, 25, 5, 15, 0, 20],
-			['2014', 25, 10, 25, 5, 15, 0, 20],
-			['2015', 5, 10, 35, 5, 15, 0, 30],
-			['2016', 5, 10, 35, 5, 15, 5, 25],
-			['2017', 0, 10, 50, 5, 20, 10, 5]
-		])
+			[
+				"Year",
+				" PHP",
+				"HTML/CSS",
+				"JavaScript",
+				"Bash",
+				"Performance",
+				"CI",
+				"Consulting",
+			],
+			["2001", 55, 35, 10, 0, 0, 0, 0],
+			["2002", 60, 30, 10, 0, 0, 0, 0],
+			["2003", 65, 20, 10, 0, 0, 0, 5],
+			["2004", 65, 20, 10, 0, 0, 0, 5],
+			["2005", 60, 15, 15, 0, 0, 0, 10],
+			["2006", 65, 10, 15, 0, 0, 0, 10],
+			["2007", 55, 20, 15, 0, 0, 0, 10],
+			["2008", 30, 45, 15, 0, 0, 0, 10],
+			["2009", 30, 45, 15, 0, 0, 0, 10],
+			["2010", 30, 30, 20, 0, 0, 0, 20],
+			["2011", 30, 10, 20, 5, 0, 0, 35],
+			["2012", 20, 10, 20, 5, 15, 0, 30],
+			["2013", 25, 10, 25, 5, 15, 0, 20],
+			["2014", 25, 10, 25, 5, 15, 0, 20],
+			["2015", 5, 10, 35, 5, 15, 0, 30],
+			["2016", 5, 10, 35, 5, 15, 5, 25],
+			["2017", 0, 10, 50, 5, 20, 10, 5],
+			["2018", 0, 10, 50, 5, 20, 10, 5],
+			["2019", 0, 10, 50, 5, 20, 10, 5],
+			["2020", 10, 20, 30, 5, 10, 10, 15],
+		]);
 
 		var options = {
-			title:     'Focus timeline',
-			vAxis:     {
-				title: 'Focusing'
+			title: "Focus timeline",
+			vAxis: {
+				title: "Focusing",
 			},
 			hAxis: {
-				slantedText: true
+				slantedText: true,
 			},
-			isStacked: 'percent',
-			chartArea: { left: 70, top: 10, width: '74%', height: '90%' }
-		}
+			isStacked: "percent",
+			chartArea: { left: 70, top: 10, width: "74%", height: "90%" },
+		};
 
-		var chart = new google.visualization.AreaChart(document.getElementById('chart_div'))
+		var chart = new google.visualization.AreaChart(
+			document.getElementById("chart_div")
+		);
 
-		chart.draw(data, options)
+		chart.draw(data, options);
 	}
 </script>
